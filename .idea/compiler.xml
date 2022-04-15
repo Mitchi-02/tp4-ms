@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="core-api" />
+        <module name="ms-command-library" />
+        <module name="ms-query-Library" />
+        <module name="ms-editeur" />
+        <module name="ms-query-Book-Status" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="core-api" target="17" />
+      <module name="ms-command-library" target="11" />
+      <module name="ms-editeur" target="11" />
+      <module name="ms-query-Book-Status" target="11" />
+      <module name="ms-query-Library" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="core-api" options="-parameters" />
+      <module name="ms-command-library" options="-parameters" />
+      <module name="ms-editeur" options="-parameters" />
+      <module name="ms-query-Book-Status" options="-parameters" />
+      <module name="ms-query-Library" options="-parameters" />
+    </option>
+  </component>
+</project>
